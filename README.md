@@ -41,3 +41,9 @@ The content we will be going over will include:
 - **Pip**
   - What is pip
   - How do we use pip to manage third party packages
+
+## Resources
+
+Different resources that will be helpful throughout the workshop:
+
+- [Workshop Notes](https://github.com/EmergingDigitalAcademy/python-intro-workshop/blob/main/workshop-notes.md)
