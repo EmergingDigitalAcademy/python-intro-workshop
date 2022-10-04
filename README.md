@@ -19,6 +19,7 @@ As this is an intro workshop, there are not many requirements except:
 
 The content we will be going over will include:
 
+- **Built-in Funcitons**
 - **Primitive Data Types**
   - Integers
   - Floats
@@ -46,4 +47,4 @@ The content we will be going over will include:
 
 Different resources that will be helpful throughout the workshop:
 
-- [Workshop Notes](https://github.com/EmergingDigitalAcademy/python-intro-workshop/blob/main/workshop-notes.md)
+- [Workshop Notes](https://github.com/EmergingDigitalAcademy/python-intro-workshop/tree/main/notes/)
