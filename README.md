@@ -25,6 +25,7 @@ The content we will be going over will include:
   - Floats
   - Strings
   - Booleans
+  - Data Type Conversions
 - **Complex Data Types**
   - Lists
   - Dictionaries

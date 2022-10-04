@@ -3,7 +3,7 @@
 # Python has many built-in functions to make your life as a developer easier
 # The two that we will be looking at today are print() and input()
 
-# print() acts just as it sounds, it will take whatever inside its parenthesis and print it to the console!
+# print() acts just as it sounds, it will take whatever is inside its parenthesis and print it to the console!
 
 print(4)  # Will print the integer 4 (more on data types later) to the console
 
@@ -28,9 +28,9 @@ print()  # Add some white space between our print statements
 # can we fix that?"
 # Is what you may be asking yourself... Of course we can!
 
-# Two ways: we can use an **Escape Character**, or we can print our prompt before asking for an input!
+# Two ways: we can use an Escape Character, or we can print our prompt before asking for an input!
 
-# Example One: Escape Character "/n"
+# Example One: Escape Character "\n"
 # Using a backslash \ indicates an escape character, there are many types of escape characters
 
 z = input(
