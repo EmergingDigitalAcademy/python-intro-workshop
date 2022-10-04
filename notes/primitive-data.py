@@ -15,6 +15,8 @@
 # 123iAmBad = "I am a bad variable name"
 # if = "I am a bad variable name"
 
+# To hold data inside of a variable, use the equals (=) operator!
+
 # Integers: Integers are used to represent number data, more specifically, whole numbers from
 # negative infinity to positive infinity
 
@@ -43,7 +45,7 @@ stringTwo = "a string!"
 
 concatonatedString = stringOne + stringTwo
 
-print(concatonatedString)
+print(concatonatedString)  # Will print "I am a string!"
 
 # Booleans: Booleans can only take two values, True and False. Booleans are useful in conditional and comparison
 # expressions
@@ -53,7 +55,9 @@ print(concatonatedString)
 booleanTrue = True
 booleanFalse = False
 
-if booleanTrue == True:
+if (
+    booleanTrue == True
+):  # Will print "I am true!", change booleanTrue to booleanFalse to recieve different output
     print("I am true!")
 else:
     print("I am false!")
@@ -65,19 +69,21 @@ else:
 # type(): the type() function will return the type data type of what you provided in the parenthesis
 
 stringToFloat = "4"
-print(stringToFloat)
-print(type(stringToFloat))
+print(stringToFloat)  # Will print "4" (string)
+print(type(stringToFloat))  # Will print <class 'str'>
 
 # int(): the int() function will return the data type provided, but as an integer instead!
 
-stringToFloat = int(stringToFloat)
-print(stringToFloat)
-print(type(stringToFloat))
+stringToFloat = int(
+    stringToFloat
+)  # Setting the variable stringToFloat to the return of int(stringToFloat)
+print(stringToFloat)  # Will print 4 (integer)
+print(type(stringToFloat))  # Will print <class 'int'>
 
 # float: the float() function will return the data type provided, but as a float instead!
 
 stringToFloat = float(stringToFloat)
-print(stringToFloat)
-print(type(stringToFloat))
+print(stringToFloat)  # Will print 4.0 (float)
+print(type(stringToFloat))  # Will print <class 'float'>
 
 # There are also str() and bool() functions that will convert data into strings and booleans, respectively.
