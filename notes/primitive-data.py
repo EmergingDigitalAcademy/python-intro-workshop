@@ -66,7 +66,7 @@ else:
 # data type than what you are given or what you are working with! Python makes this really easy for us as
 # developers by giving us more built-in functions!
 
-# type(): the type() function will return the type data type of what you provided in the parenthesis
+# type(): the type() function will return the data type of what you provided in the parenthesis
 
 stringToFloat = "4"
 print(stringToFloat)  # Will print "4" (string)

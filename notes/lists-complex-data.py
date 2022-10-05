@@ -7,7 +7,7 @@
 # Lists and Dictionaries
 
 # Lists: Lists are a collection of data surrounded by square brackets ( [] ) and separated by commas ( , )
-# Lists are heterogenous, meaning they can hold variety of data types, and the data within the lists is mutable
+# Lists are heterogenous, meaning they can hold variety of data types, and the data within the list is mutable
 # meaning that the content of the data can change without changing the identity of the data.
 
 # Examples of lists:
