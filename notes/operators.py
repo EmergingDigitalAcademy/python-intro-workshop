@@ -95,6 +95,7 @@ a = [1, 2, 3]
 b = [1, 2, 3]
 c = a
 
+print(a == b)  # Will print True
 print(a is b)  # Will print False
 print(a is not c)  # Will print False
 print(a is c)  # Will print True
