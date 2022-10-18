@@ -45,6 +45,10 @@ stringTwo = "a string!"
 
 concatonatedString = stringOne + stringTwo
 
+print()
+print("~~~~ Concatonatted string ~~~~")
+print()
+
 print(concatonatedString)  # Will print "I am a string!"
 
 # Booleans: Booleans can only take two values, True and False. Booleans are useful in conditional and comparison
@@ -54,6 +58,10 @@ print(concatonatedString)  # Will print "I am a string!"
 
 booleanTrue = True
 booleanFalse = False
+
+print()
+print("~~~~ Boolean in use ~~~~")
+print()
 
 if (
     booleanTrue == True
@@ -66,11 +74,16 @@ else:
 # data type than what you are given or what you are working with! Python makes this really easy for us as
 # developers by giving us more built-in functions!
 
+print()
+print("~~~~ Data conversions ~~~~")
+print()
+
 # type(): the type() function will return the data type of what you provided in the parenthesis
 
 stringToFloat = "4"
 print(stringToFloat)  # Will print "4" (string)
 print(type(stringToFloat))  # Will print <class 'str'>
+print()
 
 # int(): the int() function will return the data type provided, but as an integer instead!
 
@@ -79,11 +92,13 @@ stringToFloat = int(
 )  # Setting the variable stringToFloat to the return of int(stringToFloat)
 print(stringToFloat)  # Will print 4 (integer)
 print(type(stringToFloat))  # Will print <class 'int'>
+print()
 
 # float: the float() function will return the data type provided, but as a float instead!
 
 stringToFloat = float(stringToFloat)
 print(stringToFloat)  # Will print 4.0 (float)
 print(type(stringToFloat))  # Will print <class 'float'>
+print()
 
 # There are also str() and bool() functions that will convert data into strings and booleans, respectively.

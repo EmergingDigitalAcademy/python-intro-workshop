@@ -16,6 +16,10 @@
 
 # Examples of Arthimetic Operators:
 
+print()
+print("~~~~ Arithmetic Operators ~~~~")
+print()
+
 print(4 + 4)  # Will print 8 (int)
 print(10 - 2.0)  # Will print 8.0 (float)
 print(3 * 6)  # Will print 18 (int)
@@ -23,7 +27,6 @@ print(100 / 8)  # Will print 12.5 (float)
 print(100 // 8)  # Will print 12 (int)
 print(3**3)  # Will print 27 (int)
 print(15 % 7)  # Will print 1 (int)
-print()  # Whitespace between print blocks
 
 # Assignment Operators: Assignment operators are used to assign values to variables. We have already worked
 # with one and the most basic assignment operator, just the base equals (=).
@@ -36,6 +39,10 @@ print()  # Whitespace between print blocks
 
 # Examples of Assignment Operators:
 
+print()
+print("~~~~ Assignment Operators ~~~~")
+print()
+
 sum = 0
 sum = sum + 2
 print(sum)  # Will print 2
@@ -44,7 +51,6 @@ print(sum)  # Will print 2
 
 sum += 2
 print(sum)  # Will print 4
-print()  # Whitespace between print blocks
 
 # Comparative Operators: Comparative operators are used to compare to two values or variables. The result
 # of a comparative operation will either be a True or False Boolean value. The comparative operators
@@ -53,6 +59,10 @@ print()  # Whitespace between print blocks
 # and less than or equal to (<=).
 
 # Examples of Comparative Operators:
+
+print()
+print("~~~~ Comparative Operators ~~~~")
+print()
 
 x = 1
 y = 2
@@ -63,7 +73,6 @@ print(x > y)  # Will print False
 print(x < y)  # Will print True
 print(x >= y)  # Will print False
 print(x <= y)  # Will print True
-print()  # Whitespace between print blocks
 
 # Logical Operators: Logical operators are used to combine conditional and comparative statements. Like
 # the comparative operators, the result of a logical operation will be a True or a False Boolean value.
@@ -73,10 +82,13 @@ print()  # Whitespace between print blocks
 
 # Examples of Logical Operators:
 
+print()
+print("~~~~ Logical Operators ~~~~")
+print()
+
 print(x > -5 and x < 5)  # Will print True
 print(y > -5 or y < 1)  # Will print True
 print(not (x > 0 and x < y))  # Will print False
-print()  # Whitespace between print blocks
 
 # Memory and Identity Operators: Memory operators and Identity operators are both used for doing operations on
 # objects (lists, dicts, arrays, tuples, etc.). Memory and Identity operators work differently than each other,
@@ -91,6 +103,10 @@ print()  # Whitespace between print blocks
 
 # Examples of Memory Operators:
 
+print()
+print("~~~~ Arithmetic Operators ~~~~")
+print()
+
 a = [1, 2, 3]
 b = [1, 2, 3]
 c = a
@@ -100,7 +116,6 @@ print(a is b)  # Will print False
 print(a is not c)  # Will print False
 print(a is c)  # Will print True
 print(b is not c)  # Will print True
-print()  # Whitespace between print blocks
 
 # Identity operators include; in (returns True if a sequence with the specified value IS present in the object)
 # and not in (returns True if a sequence with the specified value IS NOT present in the object). What that means
@@ -109,7 +124,12 @@ print()  # Whitespace between print blocks
 
 # Examples of Identity Operators:
 
+print()
+print("~~~~ Identity Operators ~~~~")
+print()
+
 print(a)  # Will print [1, 2, 3]
 print(x)  # Will print 1
 print(x in a)  # Will print True
 print(x not in a)  # Will print False
+print()

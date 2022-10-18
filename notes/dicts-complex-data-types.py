@@ -20,6 +20,10 @@
 
 # Example of a dictionary:
 
+print()
+print("~~~~ Print a Dict ~~~~")
+print()
+
 person = {
     "name": "Mason",
     "age": 22,
@@ -44,6 +48,10 @@ print(
 
 # Examples of accessing a single key:
 
+print()
+print("~~~~ Print keys in a Dict ~~~~")
+print()
+
 print(person["name"])  # Square brackets, will print "Mason"
 print(person.get("name"))  # .get() method, will also print "Mason"
 
@@ -61,6 +69,10 @@ print(person.get("Salary"))  # Will NOT throw a KeyError, will print None instea
 
 # Examples of adding and editing data:
 
+print()
+print("~~~~ Adding Data ~~~~")
+print()
+
 person[
     "favoriteSnack"
 ] = "Cereal"  # I am creating a new "favoriteSnack" key on the person dictionary with value of "Cereal"
@@ -76,9 +88,14 @@ print(person["favoriteSnack"])  # Will print "PB&J"
 
 # Example of deleting data from a dict:
 
+print()
+print("~~~~ Removing Data ~~~~")
+print()
+
 del person[
     "favoriteSnack"
 ]  # Deleting the favoriteSnack key and value from the person dict
 print(
     person.get("favoriteSnack")
 )  # Note the usage of .get() will print None because the key is deleted
+print()

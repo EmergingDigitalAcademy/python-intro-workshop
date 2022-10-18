@@ -37,6 +37,7 @@ The content we will be going over will include:
   - Identity / Membership
 - **Conditionals**
 - **Loops**
+- **Functions**
 - **Virtual Environments (venvs)**
   - Why do we use venvs
   - Setting up a new venv

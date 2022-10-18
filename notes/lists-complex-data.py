@@ -26,6 +26,10 @@ listThree = ["a", 0, 3.14, True]
 
 # Examples of accessing data within a list:
 
+print()
+print("~~~~ Access Data in a List ~~~~")
+print()
+
 print(listTwo[0])  # Will print 0
 print(listOne[1])  # Will print "b"
 print(listThree[3])  # Will print True
@@ -40,6 +44,10 @@ print(listThree[3])  # Will print True
 # will add data to the index we specify, and will shift everything behind the inserted data to the right.
 
 # Examples of adding data to a list:
+
+print()
+print("~~~~ Add Data to a List ~~~~")
+print()
 
 listOne.append("e")  # Will add "e" to the end of listOne
 print(listOne)  # Will print ['a', 'b', 'c', 'd', 'e']
@@ -62,8 +70,13 @@ print(listTwo)  # Will print [-1, 0, 1, 2, 3, 4]
 
 # Examples of removing data from a list:
 
+print()
+print("~~~~ Remove Data from a List ~~~~")
+print()
+
 listThree.remove(3.14)  # Will remove 3.14 from listThree
 print(listThree)  # Will print ['a', 0, True]
 
 listThree.pop(0)  # Will remove "a" from listThree
 print(listThree)  # Will print [0, True]
+print()

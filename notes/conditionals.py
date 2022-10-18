@@ -21,7 +21,7 @@
 # Examples of conditionals:
 
 print()
-print("Conditional 1:")
+print("~~~~ Conditional 1 ~~~~")
 print()
 
 temp1 = 70
@@ -29,45 +29,37 @@ temp1 = 70
 # It's like asking our code, "Is the temperature high enough to wear summer clothes?"
 
 if temp1 >= 65:
-    print()
     print("The temperature is " + str(temp1) + " degrees, higher than 65.")
     print("Wear summer clothes!")
-    print()
 
 print()
-print("Conditional 2:")
+print("~~~~ Conditional 2 ~~~~")
 print()
 
 temp2 = 30
 
 if temp2 >= 65:
-    print()
     print("The temperature is " + str(temp2) + " degrees, higher than 65.")
     print("Wear summer clothes!")
-    print()
 else:
-    print()
     print("The temperature is " + str(temp2) + " degrees, lower than 65.")
     print("Wear winter clothes!")
-    print()
 
 # In this example, our code is telling us to wear winter clothes at any time the temperature is less than
 # 65 degrees, but realistically I wouldn't start bundling up until about 40 degrees. We can achieve this
 # logic by using an elif statement
 
 print()
-print("Conditional 3:")
+print("~~~~ Conditional 3: ~~~~")
 print()
 
 temp3 = 45
 
 if temp3 >= 65:
-    print()
     print("The temperature is " + str(temp3) + " degrees, higher than 65.")
     print("Wear summer clothes!")
     print()
 elif temp3 > 40:
-    print()
     print(
         "The temperature is "
         + str(temp3)
@@ -76,7 +68,6 @@ elif temp3 > 40:
     print("Dress a bit warmer!")
     print()
 else:
-    print()
     print("The temperature is " + str(temp3) + " degrees, lower than 40.")
     print("Wear winter clothes!")
     print()
