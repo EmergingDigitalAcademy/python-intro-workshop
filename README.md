@@ -45,8 +45,12 @@ The content we will be going over will include:
   - What is pip
   - How do we use pip to manage third party packages
 
+We will wrap up the workshop by taking everything learned and building a weather forcasting application!
+
 ## Resources
 
 Different resources that will be helpful throughout the workshop:
 
 - [Workshop Notes](https://github.com/EmergingDigitalAcademy/python-intro-workshop/tree/main/notes/)
+- [W3 Schools](https://www.w3schools.com/python/default.asp)
+- [Python3 Documentation](https://docs.python.org/3/)
