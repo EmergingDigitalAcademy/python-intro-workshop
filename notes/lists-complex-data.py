@@ -17,7 +17,7 @@ listTwo = [0, 1, 2, 3, 4]
 listThree = ["a", 0, 3.14, True]
 
 # Access Data: We can access the data within a list by calling the variable the list is stored in,
-# folowed by a set of square brackets directly after that will hold the index position of the list
+# followed by a set of square brackets directly after that will hold the index position of the list
 # item we want to access.
 
 # Index Positioning: The position of an item within a list is called it's index. Indexing always starts at 0,

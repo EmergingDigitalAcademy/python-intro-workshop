@@ -1,7 +1,7 @@
 # ~~~~~~ Functions ~~~~~~ #
 
 # Functions are another way that we can organize our code so we aren't writing the same code multiple times!
-# You can think of a funciton like a factory. To make a pencil, we are always feeding the same ingredients
+# You can think of a function like a factory. To make a pencil, we are always feeding the same ingredients
 # (wood, graphite, metal, and rubber) into a factory, and the output is always the same, we are given a pencil!
 
 # We have actually been using many built in functions throughout the course so far. print(), str(), and

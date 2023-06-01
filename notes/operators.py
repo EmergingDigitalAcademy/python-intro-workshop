@@ -3,7 +3,7 @@
 # What are operators? Operators are characters in Python that are used to perform operations on
 # values and variables!
 
-# Operators are broken up into many different categories, today we will be talking about; Arthimetic,
+# Operators are broken up into many different categories, today we will be talking about; Arithmetic,
 # Assignment, Comparative, Logical, and Memory / Identity operators.
 
 # Arithmetic Operators: There are seven different arithmetic operators; the addition (+), subtraction (-),
@@ -14,7 +14,7 @@
 # floor operator is used to return an integer after a division operation whereas the base division operator
 # will return a float after a division operation.
 
-# Examples of Arthimetic Operators:
+# Examples of Arithmetic Operators:
 
 print()
 print("~~~~ Arithmetic Operators ~~~~")
@@ -34,7 +34,7 @@ print(15 % 7)  # Will print 1 (int)
 # The other assignment operators come in when we want to do arithmetic and assign the result to a variable at
 # the same time! There is an assignment operator to pair with all of the arithmetic operators listed above;
 # +=, -=, *=, /=, %=, **=, and //=. For context, if you had a variable named sum, and you were using it to
-# hold a running sum of a list of numbers, you would have to call sum in the arthmetic operation if we weren't
+# hold a running sum of a list of numbers, you would have to call sum in the arithmetic operation if we weren't
 # using a special assignment operator.
 
 # Examples of Assignment Operators:
@@ -98,7 +98,7 @@ print(not (x > 0 and x < y))  # Will print False
 # Memory operators include; is (returns True if both variables ARE the same object) and is not (returns True
 # if both variables ARE NOT the same object). Now, that functionally sounds a lot like the equal and is not
 # equal comparative operators, but there is a slight difference. While equal and is not equal will compare
-# the value of the two variables to determine if they are the same, is and is not with look at the varibales
+# the value of the two variables to determine if they are the same, is and is not with look at the variables
 # space in memory to determine if they are the same.
 
 # Examples of Memory Operators:

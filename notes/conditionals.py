@@ -15,7 +15,7 @@
 
 # In Python, however, code blocks are defined by indentation. That means that you have
 # to add spaces or tabs in the line after your statement to indicate a new code block, and every line of
-# code that is supposed to be grouped in a code block has to have the same indentation or you will recieve
+# code that is supposed to be grouped in a code block has to have the same indentation or you will receive
 # an indentation error.
 
 # Examples of conditionals:

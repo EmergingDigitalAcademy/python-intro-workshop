@@ -34,12 +34,12 @@ person = {
 
 print(
     person
-)  # Print out the dictionary, willl print {'name': 'Mason', 'age': 22, 'height': 6.25, 'softwareDeveloper': True, 'hobbies': ['Coding', 'Reading', 'Gaming']}
+)  # Print out the dictionary, will print {'name': 'Mason', 'age': 22, 'height': 6.25, 'softwareDeveloper': True, 'hobbies': ['Coding', 'Reading', 'Gaming']}
 
 # Access Data: There are many ways in Python to access data out of a dictionary, using square brackets ( [] )
 # or using the .get() method to access a single key
 
-# Accessing a single key: The simplest way to retrieve data out of a dictionary is by accessing the dicitonary
+# Accessing a single key: The simplest way to retrieve data out of a dictionary is by accessing the dictionary
 # variable and including the key name as a string inside of the brackets. This works great, however,
 # if you try to access a key that doesn't exist on the dictionary, Python will throw an error.
 
@@ -83,7 +83,7 @@ person[
 ] = "PB&J"  # Editing the "favoriteSnack" key on the person dict to "PB&J"
 print(person["favoriteSnack"])  # Will print "PB&J"
 
-# Deleting Data: Deleting data from a dict is very similar to everything we have done so far, excpet we
+# Deleting Data: Deleting data from a dict is very similar to everything we have done so far, except we
 # include the del keyword before we call the dictionary
 
 # Example of deleting data from a dict:

@@ -30,9 +30,9 @@ for expense in expenses:
 # can solve this problem: or we can use a range() function, or we can use a new loop keyword, while!
 
 # The range() function will generate a range for us that we can then use a for in loop to loop over.
-# The range() function takes two arguments inside of the perenthesis, a starting point and an ending point.
+# The range() function takes two arguments inside of the parenthesis, a starting point and an ending point.
 # The range will always end one number BEFORE the number you specify as your end point, and if you don't
-# specify a start point, your start poing will be 0
+# specify a start point, your start point will be 0
 
 # If you called range(6), you would get a range of numbers
 
@@ -68,7 +68,7 @@ while i < 5:
 # There are a few extra keywords that we can use to make our loops more interesting: else, break, and continue.
 
 # Else in a loop works similarly to how else works in a conditional, it will run any code in the else block
-# after every itteration of the loop cycle completes.
+# after every iteration of the loop cycle completes.
 
 # Example of Else:
 

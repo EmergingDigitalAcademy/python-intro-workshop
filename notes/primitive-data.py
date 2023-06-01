@@ -65,7 +65,7 @@ print()
 
 if (
     booleanTrue == True
-):  # Will print "I am true!", change booleanTrue to booleanFalse to recieve different output
+):  # Will print "I am true!", change booleanTrue to booleanFalse to receive different output
     print("I am true!")
 else:
     print("I am false!")

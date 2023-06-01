@@ -22,7 +22,7 @@
 
 # python3 -m pip uninstall <package_name>
 
-# Uninstalling a package will unistall that package, but NOT its dependencies.
+# Uninstalling a package will uninstall that package, but NOT its dependencies.
 
 # There are two more important pip commands, list and show.
 # 'pip list' will list all packages that are installed in the current environment, and 'pip show' followed by the
