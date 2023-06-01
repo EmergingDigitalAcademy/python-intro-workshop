@@ -1,7 +1,5 @@
 # Intro to Practical Python Workshop
 
-## [Workshop Video](https://vimeo.com/761995189/e5643aa0bb)
-
 ## Welcome!
 
 Hello, and welcome to the Emerging Digital Academy: Intro to Practical Python Workshop. Today we will be going over the fundamentals of Python so by the end you will have the skills required to make practical Python applications!
@@ -21,7 +19,7 @@ As this is an intro workshop, there are not many requirements except:
 
 The content we will be going over will include:
 
-- **Built-in Funcitons**
+- **Built-in Functions**
 - **Primitive Data Types**
   - Integers
   - Floats
@@ -47,7 +45,7 @@ The content we will be going over will include:
   - What is pip
   - How do we use pip to manage third party packages
 
-We will wrap up the workshop by taking everything learned and building a weather forcasting application!
+We will wrap up the workshop by taking everything learned and building a weather forecasting application!
 
 ## Resources
 
