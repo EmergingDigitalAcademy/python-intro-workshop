@@ -1,5 +1,7 @@
 # Intro to Practical Python Workshop
 
+## [Workshop Video](https://vimeo.com/761995189/e5643aa0bb)
+
 ## Welcome!
 
 Hello, and welcome to the Emerging Digital Academy: Intro to Practical Python Workshop. Today we will be going over the fundamentals of Python so by the end you will have the skills required to make practical Python applications!
