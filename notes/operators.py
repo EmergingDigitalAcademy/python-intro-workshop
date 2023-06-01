@@ -104,7 +104,7 @@ print(not (x > 0 and x < y))  # Will print False
 # Examples of Memory Operators:
 
 print()
-print("~~~~ Arithmetic Operators ~~~~")
+print("~~~~ Memory Operators ~~~~")
 print()
 
 a = [1, 2, 3]

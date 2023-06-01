@@ -38,18 +38,18 @@ floats = [0.5, 1.0, 3.14, 123.456789]
 string = "I am a string!"
 
 # There are many built in functions that we can use to modify our strings, but probably the most
-# powerful is the addition operator (+) which we can use to concatonate, or combine, two strings together!
+# powerful is the addition operator (+) which we can use to concatenate, or combine, two strings together!
 
 stringOne = "I am "
 stringTwo = "a string!"
 
-concatonatedString = stringOne + stringTwo
+concatenatedString = stringOne + stringTwo
 
 print()
-print("~~~~ Concatonatted string ~~~~")
+print("~~~~ Concatenated string ~~~~")
 print()
 
-print(concatonatedString)  # Will print "I am a string!"
+print(concatenatedString)  # Will print "I am a string!"
 
 # Booleans: Booleans can only take two values, True and False. Booleans are useful in conditional and comparison
 # expressions
